@@ -26,6 +26,7 @@ const questions = [
             {text: "Australia", correct: true},
         ]
     },
+    
 ];
 
 export default questions;

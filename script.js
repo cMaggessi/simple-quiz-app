@@ -67,7 +67,6 @@ if(selectedBtn.dataset.correct === "true") {
     score++;
     scoreElement.innerHTML = `Score: ${score}`
 }
-
 //looping through the children of answer-buttons
 Array.from(answerBtn.children).forEach(button => {
     if(button.dataset.correct === "true") {
